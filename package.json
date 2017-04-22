@@ -1,0 +1,9 @@
+{
+  "name": "drop-shitter",
+  "version": "0.0.1",
+  "description": "Dropshipping detection for Allegro, as a Chrome extension",
+  "main": "index.js",
+  "repository": "git@github.com:gajewsky/drop-shitter.git",
+  "author": "Marcin Gajewski and Wojtek Majewski",
+  "license": "MIT"
+}
