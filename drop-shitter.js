@@ -1,13 +1,13 @@
 const request = require('request');
 const async = require('async');
 const cheerio = require('cheerio');
-
-const url = 'http://allegro.pl/xiaomi-redmi-note-4x-32gb-dualsim-pl-menu-global-i6718875497.html';
+const url = require('yargs').argv.url;
 
 request.get({
   url,
   headers: {'User-Agent': 'Request-Promise'},
 }, (error, response, body) => {
+
   if (error) return cb(error)
 
   $ =  cheerio.load(body);
