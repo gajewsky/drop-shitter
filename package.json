@@ -7,7 +7,6 @@
   "author": "Marcin Gajewski and Wojtek Majewski",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.4.0",
     "cheerio": "^0.22.0",
     "request": "^2.81.0",
     "yargs": "^8.0.1"
